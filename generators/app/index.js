@@ -18,6 +18,6 @@ module.exports = yeoman.generators.Base.extend({
     },
 
     install: function () {
-        this.npmInstall(['eslint-config-kellyirc', 'babel-eslint'], { saveDev: true });
+        this.npmInstall(['eslint-config-kellyirc', 'babel-eslint@4'], { saveDev: true });
     }
 });
